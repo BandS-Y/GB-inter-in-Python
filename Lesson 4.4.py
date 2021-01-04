@@ -9,7 +9,7 @@ enemy = {"name": "Korbun",
          "armor": 1.2}
 
 def armor_down(armor, damage):
-    return armor / damage
+    return  damage / armor
 
 def attack(person1, person2):
     new_damage = armor_down(person1["armor"], person2["damage"])
